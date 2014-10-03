@@ -1,0 +1,32 @@
+﻿body {
+}
+
+.syndication-item-wrapper {
+    margin: 15px;
+    border: 1px solid steelblue;
+    border-radius: 8px;
+}
+
+div.syndication-item-wrapper:hover {
+   background-color:  azure
+}
+
+.syndication-item-title {
+
+    padding: 3px 3px 3px 10px;
+    font-size: 18px;
+    border-bottom: 1px solid skyblue;
+}
+
+.syndication-item-description {
+    padding: 10px;
+}
+
+.syndication-item-uploadedDate {
+    font-size: 10px;
+    margin: 3px 0 0 10px;  
+}
+
+.syndication-item-content {
+    padding: 10px;
+}

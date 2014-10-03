@@ -1,0 +1,52 @@
+﻿body {
+}
+
+.upload-file-wrapper {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #b0e0e6;
+}
+
+    .upload-file-wrapper div {
+        margin: 10px;
+    }
+
+.file-dispaly-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 1px solid #b0e0e6;
+    padding: 10px;
+}
+
+    .file-dispaly-wrapper div {
+        display: inline-block;
+    }
+
+.col-id {
+    width: 40px;
+}
+
+.col-filename {
+    width: 220px;
+}
+
+.col-filetype {
+    width: 400px;
+}
+
+.col-document {
+    width: 110px;
+}
+
+.col-link {
+    width: 50px;
+}
+
+/*60px"
+160px
+70px"
+120px
+50px"*/

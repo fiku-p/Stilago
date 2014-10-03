@@ -1,0 +1,28 @@
+﻿@model WebApplication1.Models.RssModelClasses.SyndicationModel
+
+@{
+    ViewBag.Title = "Task 2: XML";
+}
+
+<h2>@ViewBag.Title</h2>
+
+
+@foreach (var item in Model.SyndicationItem)
+{
+    <div class="syndication-item-wrapper">
+        <div class="syndication-item-title">
+            <a href="@item.TitleSyndicationLink.AbsolutePath">@item.Title</a>
+        </div>
+        <div class="syndication-item-uploadedDate">
+            @item.UploadedDate
+        </div>
+        <div class="syndication-item-description">
+            @item.Description
+        </div>
+        <div class="syndication-item-content">
+            <a href="@item.SyndicationLink.AbsolutePath">@item.SyndicationLink.AbsolutePath</a>
+        </div>
+    </div>
+}
+
+
