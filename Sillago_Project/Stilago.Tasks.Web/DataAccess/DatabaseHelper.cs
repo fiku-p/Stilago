@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Reflection;
 
-namespace WebApplication1.DataAccess
+namespace Stilago.Tasks.Web.DataAccess
 {
     public static class DatabaseHelper
     {

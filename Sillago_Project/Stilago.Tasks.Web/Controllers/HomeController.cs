@@ -1,18 +1,15 @@
-﻿using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Data.SqlClient;
+﻿using System.Data;
 using System.Linq;
 using System.ServiceModel.Syndication;
 using System.Web;
 using System.Web.Mvc;
 using System.Xml;
-using WebApplication1.DataAccess;
-using WebApplication1.Models.Task1;
-using WebApplication1.Models.Task2.RssModelClasses;
-using WebApplication1.Models.Task3;
+using Stilago.Tasks.Web.DataAccess;
+using Stilago.Tasks.Web.Models.Task1;
+using Stilago.Tasks.Web.Models.Task2.RssModelClasses;
+using Stilago.Tasks.Web.Models.Task3;
 
-namespace WebApplication1.Controllers
+namespace Stilago.Tasks.Web.Controllers
 {
     public class HomeController : Controller
     {

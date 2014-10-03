@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.Models.RssModelClasses
+﻿namespace Stilago.Tasks.Web.Models.Task2.RssModelClasses
 {
     public class SyndicationLinkModel
     {

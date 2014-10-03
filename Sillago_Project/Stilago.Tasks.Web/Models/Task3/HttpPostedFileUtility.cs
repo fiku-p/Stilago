@@ -1,6 +1,6 @@
 ﻿using System.Web;
 
-namespace WebApplication1.Models.Task3
+namespace Stilago.Tasks.Web.Models.Task3
 {
     public static class HttpPostedFileUtility
     {

@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel.Syndication;
-using WebApplication1.Models.RssModelClasses;
 
-namespace WebApplication1.Models.Task2.RssModelClasses
+namespace Stilago.Tasks.Web.Models.Task2.RssModelClasses
 {
     public static class SyndicationFeedProcessor
     {

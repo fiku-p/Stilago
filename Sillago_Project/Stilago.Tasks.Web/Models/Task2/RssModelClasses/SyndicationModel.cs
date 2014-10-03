@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WebApplication1.Models.RssModelClasses
+namespace Stilago.Tasks.Web.Models.Task2.RssModelClasses
 {
     public class SyndicationModel
     {
